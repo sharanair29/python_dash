@@ -10,7 +10,7 @@ import numpy as np
 
 
 # DATA PREP
-sqlEngine       = create_engine('mysql+pymysql://root:hoopproj1@127.0.0.1', pool_recycle=3600)
+sqlEngine       = create_engine('mysql+pymysql://root:password@127.0.0.1', pool_recycle=3600)
 
 dbConnection    = sqlEngine.connect()
 
